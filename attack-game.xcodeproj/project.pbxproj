@@ -12,6 +12,10 @@
 		84DA73781BBD5B5800D4C9F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA73761BBD5B5800D4C9F9 /* Main.storyboard */; };
 		84DA737A1BBD5B5800D4C9F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DA73791BBD5B5800D4C9F9 /* Assets.xcassets */; };
 		84DA737D1BBD5B5800D4C9F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DA737B1BBD5B5800D4C9F9 /* LaunchScreen.storyboard */; };
+		84DA73861BBD75D500D4C9F9 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA73851BBD75D500D4C9F9 /* Character.swift */; settings = {ASSET_TAGS = (); }; };
+		84DA73881BBD7E0C00D4C9F9 /* Solider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA73871BBD7E0C00D4C9F9 /* Solider.swift */; settings = {ASSET_TAGS = (); }; };
+		84DA738A1BBD7E6700D4C9F9 /* Orc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA73891BBD7E6700D4C9F9 /* Orc.swift */; settings = {ASSET_TAGS = (); }; };
+		84DA738C1BBD7ED700D4C9F9 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA738B1BBD7ED700D4C9F9 /* Game.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		84DA73791BBD5B5800D4C9F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84DA737C1BBD5B5800D4C9F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84DA737E1BBD5B5800D4C9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DA73851BBD75D500D4C9F9 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		84DA73871BBD7E0C00D4C9F9 /* Solider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solider.swift; sourceTree = "<group>"; };
+		84DA73891BBD7E6700D4C9F9 /* Orc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orc.swift; sourceTree = "<group>"; };
+		84DA738B1BBD7ED700D4C9F9 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		84DA73711BBD5B5800D4C9F9 /* attack-game */ = {
 			isa = PBXGroup;
 			children = (
+				84DA73841BBD756800D4C9F9 /* Models */,
 				84DA73721BBD5B5800D4C9F9 /* AppDelegate.swift */,
 				84DA73741BBD5B5800D4C9F9 /* ViewController.swift */,
 				84DA73761BBD5B5800D4C9F9 /* Main.storyboard */,
 				84DA73791BBD5B5800D4C9F9 /* Assets.xcassets */,
 				84DA737B1BBD5B5800D4C9F9 /* LaunchScreen.storyboard */,
 				84DA737E1BBD5B5800D4C9F9 /* Info.plist */,
+				84DA738B1BBD7ED700D4C9F9 /* Game.swift */,
 			);
 			path = "attack-game";
+			sourceTree = "<group>";
+		};
+		84DA73841BBD756800D4C9F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84DA73851BBD75D500D4C9F9 /* Character.swift */,
+				84DA73871BBD7E0C00D4C9F9 /* Solider.swift */,
+				84DA73891BBD7E6700D4C9F9 /* Orc.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DA73861BBD75D500D4C9F9 /* Character.swift in Sources */,
+				84DA738C1BBD7ED700D4C9F9 /* Game.swift in Sources */,
 				84DA73751BBD5B5800D4C9F9 /* ViewController.swift in Sources */,
+				84DA73881BBD7E0C00D4C9F9 /* Solider.swift in Sources */,
+				84DA738A1BBD7E6700D4C9F9 /* Orc.swift in Sources */,
 				84DA73731BBD5B5800D4C9F9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
